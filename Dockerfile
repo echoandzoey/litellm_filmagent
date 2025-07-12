@@ -6,4 +6,4 @@ WORKDIR /app
 EXPOSE 4000
 
 # 启动命令，添加配置文件支持
-CMD ["--port", "4000", "--config", "/app/config.yaml"]
+CMD ["litellm", "--port", "4000", "--config", "/app/config.yaml"]
