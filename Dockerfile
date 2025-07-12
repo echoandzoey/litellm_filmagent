@@ -6,4 +6,4 @@ WORKDIR /app
 EXPOSE 4000
 
 # 启动命令，使用默认配置
-CMD ["litellm", "--port", "4000"]
+CMD ["--port", "4000"]
