@@ -3,9 +3,9 @@ model_list:
     litellm_params:
       model: groq/llama3-8b-8192
       api_key: os.environ/GROQ_API_KEY
-  - model_name: groq-gemma
+  - model_name: groq-deepseek
     litellm_params:
-      model: groq/gemma-7b-it
+      model: groq/deepseek-r1-distill-llama-70b
       api_key: os.environ/GROQ_API_KEY
 
 general_settings:
