@@ -1,12 +1,12 @@
 model_list:
-  - model_name: gpt-3.5-turbo
+  - model_name: groq-llama3
     litellm_params:
-      model: gpt-3.5-turbo
-      api_key: os.environ/OPENAI_API_KEY
-  - model_name: gpt-4
+      model: groq/llama3-8b-8192
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: groq-gemma
     litellm_params:
-      model: gpt-4
-      api_key: os.environ/OPENAI_API_KEY
+      model: groq/gemma-7b-it
+      api_key: os.environ/GROQ_API_KEY
 
 general_settings:
   master_key: os.environ/LITELLM_MASTER_KEY
