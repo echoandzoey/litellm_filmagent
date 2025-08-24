@@ -7,6 +7,26 @@ model_list:
     litellm_params:
       model: groq/deepseek-r1-distill-llama-70b
       api_key: os.environ/GROQ_API_KEY
+  - model_name: groq_llama
+    litellm_params:
+      model: groq/llama-3.1-8b-instant
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: litellm_groq_qwen_32b
+    litellm_params:
+      model: groq/qwen/qwen3-32b
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: litellm_groq_gptoss_20b
+    litellm_params:
+      model: groq/openai/gpt-oss-20b
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: litellm_groq_gptoss_120b
+    litellm_params:
+      model: groq/openai/gpt-oss-120b
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: litellm_groq_deepseek
+    litellm_params:
+      model: groq/deepseek-r1-distill-llama-70b
+      api_key: os.environ/GROQ_API_KEY
 
 general_settings:
   master_key: os.environ/LITELLM_MASTER_KEY
