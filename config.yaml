@@ -1,16 +1,4 @@
 model_list:
-  - model_name: groq-llama3
-    litellm_params:
-      model: groq/llama3-8b-8192
-      api_key: os.environ/GROQ_API_KEY
-  - model_name: groq-deepseek
-    litellm_params:
-      model: groq/deepseek-r1-distill-llama-70b
-      api_key: os.environ/GROQ_API_KEY
-  - model_name: groq_llama
-    litellm_params:
-      model: groq/llama-3.1-8b-instant
-      api_key: os.environ/GROQ_API_KEY
   - model_name: litellm_groq_qwen_32b
     litellm_params:
       model: groq/qwen/qwen3-32b
